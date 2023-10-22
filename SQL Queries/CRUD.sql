@@ -43,6 +43,7 @@ SELECT FirstName, LastName, Salary
 SELECT TOP(5) FirstName, LastName
 	FROM Employees
     /*asd*/
+	/* another conflict */
 	ORDER BY Salary DESC
 
 SELECT FirstName, LastName
