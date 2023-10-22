@@ -42,6 +42,7 @@ SELECT FirstName, LastName, Salary
 
 SELECT TOP(5) FirstName, LastName
 	FROM Employees
+    /*asd*/
 	ORDER BY Salary DESC
 
 SELECT FirstName, LastName
