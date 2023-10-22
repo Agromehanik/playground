@@ -26,6 +26,7 @@ SELECT FirstName, LastName, JobTitle
 	FROM Employees
 	WHERE Salary BETWEEN 20000 AND 30000
 
+/* Some comment */
 SELECT FirstName + ' ' + MiddleName + ' ' + LastName AS [Full Name]
 	FROM Employees
 	WHERE Salary iN (25000, 14000, 12500 , 23600)
@@ -47,10 +48,10 @@ SELECT FirstName, LastName
 	FROM Employees
 	WHERE DepartmentID != 4
 
---	•	First by salary in decreasing order
---•	Then by first name alphabetically
---•	Then by last name descending
---•	Then by middle name alphabetically
+--	ï¿½	First by salary in decreasing order
+--ï¿½	Then by first name alphabetically
+--ï¿½	Then by last name descending
+--ï¿½	Then by middle name alphabetically
 
 SELECT *
 	FROM Employees
