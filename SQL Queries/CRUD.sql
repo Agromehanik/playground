@@ -68,6 +68,7 @@ CREATE VIEW V_EmployeeNameJobTitle AS
 SELECT DISTINCT JobTitle
 	FROM Employees
 
+/* A new conflict */
 SELECT TOP(10) *
 	FROM Projects
 	ORDER BY StartDate, [Name]
